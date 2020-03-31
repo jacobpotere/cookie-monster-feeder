@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cookie Monster Feeder</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('https://media2.giphy.com/media/xT0xeMA62E1XIlup68/200.webp?cid=ecf05e47a098e83eb13405c9515dfbbeca8f3035cd27cc6a&rid=200.webp'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+<div class="container">
+    <div class="container">
+       <div class="text-center mt-5">
+          <h1>Cookie Monster Feeder</h1>
+          <p>Oh No! The Cookie Monster is back at it and is wanting more cookies.
+          <br> Help fulfill Cookie Monster's endless hunger of cookies.</p>
+          <p class="cookiemonster">   <img src="https://m.media-amazon.com/images/S/aplus-media/vc/388cedc4-283c-45bb-bcdd-d8efaf79bfa0.png" style="width:90px;" alt="">Cookie Monster: "Me want cookie! Om nom nom nom"</p>
+          <h2>Cookie Counter:</h2>
+          <h2 id="cookie-counter">0</h2>
+          <button id="cookie-clicker">Make Cookies</button>
+        </div>
+    </div>
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-12 mt-6">
+          <h2 class="text-center">Upgrade Production</h2>
+        <div class="card-columns">
+            <div class="card card-body">
+              <p class="font-weight-bold">Hard Work and Elbow Grease</p>
+              <p class="small">You are producing <span id="click-power-multiple">1</span> cookie(s) per click</p>
+              <button id="buy-click-power">Purchase for <span id="click-power-price">50</span></button>
+              <p class="small">level: <span id="click-power-level">1</span></p>
+            </div>
+      <!---GRANDMAS-->
+            <div class="card card-body">
+              <p class="font-weight-bold">Grandmas</p>
+              <p class="small">Producing <span id="grandma-multiple">0</span> cookies per second!</p>
+              <button id="buy-grandma">Purchase for <span id="grandma-price">500</span></button>
+              <p class="small">Level: <span id="grandma-level">0</span></p>
+            </div>
+    <!--COOKIE MANUFACTURING FACILITY-->
+            <div class="card card-body">
+              <p class= "font-weight-bold">Facility</p>
+              <p class="small">Producing <span id="facility-multiple">0</span> cookies per second!</p>
+              <button id="buy-facility">Purchase for <span id="facility-price">1,500</span></button>
+              <p class="small">Level: <span id="facility-level">0</span></p>
+            </div>
+    <!---ELF-->
+            <div class="card card-body">
+              <p class="font-weight-bold">Elf</p>
+              <p class="small">Producing <span id="elf-multiple">0</span> cookies per second!</p>
+              <button id="buy-elf">Purchase for <span id="elf-price">2,000</span></button>
+              <p class="small">Level: <span id="elf-level">0</span></p>
+            </div>
+    <!---SANTA-->
+            <div class="card card-body">
+              <p class="font-weight-bold">Santa</p>
+              <p class="small">Producing <span id="santa-multiple">0</span> cookies per second!</p>
+              <button id="buy-santa">Purchase for <span id="santa-price">50,000</span></button>
+              <p class="small">Level: <span id="santa-level">0</span></p>
+            </div>
+    <!---MRS. CLAUS-->
+            <div class="card card-body">
+              <p class="font-weight-bold">Mrs. Claus</p>
+              <p class="small">Producing <span id="claus-multiple">0</span> cookies per second!</p>
+              <button id="buy-claus">Purchase for <span id="claus-price">100,000</span></button>
+              <p class="small">Level: <span id="claus-level">0</span></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<script
+    src="scripts.js"
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+</script>
+</body>
+</html>

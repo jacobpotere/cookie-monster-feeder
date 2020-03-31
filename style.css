@@ -1,0 +1,40 @@
+h1{
+  font-family: cursive;
+}
+
+h2{
+  font-family: cursive;
+  font-style: italic;
+  font-size: 30px;
+}
+.cookiemonster{
+  font-weight: bold;
+  font-size: 25px;
+  font-stretch: expanded;
+  font-family: serif;
+}
+button {
+  background-color: #1425ae;
+  border: none;
+  color: white;
+  padding: 20px 37px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+
+.card{
+  background-color: transparent;
+  color: white;
+  padding: 20px 37px;
+  text-align: center;
+  display: inline-block;
+  font-size: 19px;
+  margin: 10px 8px;
+  border-style: dotted;
+  border-width: thick;
+  border-color: white;
+  width: 300px;
+  height: 250px;
+  }
